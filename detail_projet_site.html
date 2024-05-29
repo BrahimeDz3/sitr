@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projets</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- Lien vers Font Awesome -->
+    <style>
+       body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('background.png'); /* Utilisation du chemin relatif pour l'image de fond */
+            background-size: cover;
+            background-position: center;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between; /* Aligner les éléments avec un espacement entre eux */
+            align-items: center; /* Aligner verticalement les éléments */
+        }
+
+        .project {
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.95);
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .project:hover {
+            transform: scale(1.02);
+        }
+
+        .project h2 {
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+        .project p {
+            color: #777;
+            margin-bottom: 10px;
+        }
+
+        .home-button {
+            background-color: #007bff; /* Couleur du fond du bouton */
+            color: white; /* Couleur du texte du bouton */
+            border: none; /* Pas de bordure */
+            padding: 10px 20px; /* Espacement interne */
+            border-radius: 5px; /* Coins arrondis */
+            cursor: pointer; /* Curseur pointer */
+            text-decoration: none; /* Pas de soulignement */
+        }
+
+        .home-button i {
+            margin-right: 5px; /* Espacement entre l'icône et le texte */
+        }
+
+        .home-button:hover {
+            background-color: #0056b3; /* Changement de couleur au survol */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>
+            Projets
+            <a href="c:\Users\BCSBgayet\Desktop\miniprojet2\index.html" class="home-button"><i class="fas fa-home"></i>Accueil</a> <!-- Icône d'accueil -->
+        </h1>
+        <div class="project">
+            <h2>Projet 1 : Simulation d'un tournoi avec C++  </h2>
+            <p>Ce projet implémente une simulation de tournoi sportif en utilisant le langage de programmation C++. Il permet de créer des équipes, de planifier et d'exécuter des matchs entre ces équipes, et de générer des rapports sur les résultats du tournoi. L'application utilise des structures de données telles que des tableaux, des listes chaînées ou des vecteurs pour stocker les informations sur les équipes. Les algorithmes sont utilisés pour organiser les matchs, calculer les scores et déterminer les gagnants. Ce projet met en pratique les concepts de programmation orientée objet, de gestion de mémoire et d'algorithmique avec C++.</p>
+        </div>
+        <div class="project">
+            <h2>Projet 2 : Gestion des etudiants avec C++ </h2>
+            <p>
+                Ce projet de gestion des étudiants, développé en C++, permet de stocker les informations des étudiants telles que leur nom, prénom, matricule, notes, etc. Il offre des fonctionnalités telles que l'ajout, la suppression et la mise à jour des données des étudiants. Le programme peut également générer des rapports sur les performances des étudiants, calculer des moyennes, et organiser les données de manière efficace à l'aide de structures de données appropriées. Ce projet met en pratique les concepts de programmation en C++ ainsi que la manipulation de fichiers pour la sauvegarde des données.</p>
+        </div>
+        <div class="project">
+            <h2>Projet 3 : Création d'un site web </h2>
+            <p>Ce projet consiste à concevoir et développer un site web pour une agence de voyage organisé. Le site présente diverses destinations de voyage, des circuits et des forfaits touristiques organisés. Il propose aux utilisateurs des informations détaillées sur les destinations, les itinéraires, les activités, ainsi que la possibilité de réserver des voyages en ligne. L'interface utilisateur est conviviale et attrayante, offrant une expérience immersive pour les voyageurs en quête d'aventures organisées. Ce projet met en œuvre les technologies web telles que HTML, CSS, JavaScript...</p>
+        </div>
+    </div>
+</body>
+</html>
